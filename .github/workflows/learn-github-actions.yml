@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: [self-hosted, linux, arm64, amazon]
+    runs-on: [self-hosted,default]
     steps:
       - uses: actions/checkout@v3
 
